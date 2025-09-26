@@ -1,0 +1,21 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Waste Heat Recovery System Illustration -->
+  <rect width="300" height="200" rx="8" fill="#f8fafc"/>
+  <rect x="20" y="40" width="260" height="120" rx="4" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Industrial Equipment -->
+  <rect x="40" y="60" width="60" height="80" rx="4" fill="#3b82f6"/>
+  <rect x="120" y="70" width="60" height="60" rx="4" fill="#ef4444"/>
+  <rect x="200" y="60" width="60" height="80" rx="4" fill="#10b981"/>
+  
+  <!-- Pipes/Connections -->
+  <line x1="100" y1="100" x2="120" y2="100" stroke="#64748b" stroke-width="3"/>
+  <line x1="180" y1="100" x2="200" y2="100" stroke="#64748b" stroke-width="3"/>
+  
+  <!-- Labels -->
+  <text x="70" y="155" text-anchor="middle" fill="#475569" font-family="Arial" font-size="10">Input</text>
+  <text x="150" y="155" text-anchor="middle" fill="#475569" font-family="Arial" font-size="10">WHRS</text>
+  <text x="230" y="155" text-anchor="middle" fill="#475569" font-family="Arial" font-size="10">Output</text>
+  
+  <text x="150" y="25" text-anchor="middle" fill="#1e293b" font-family="Arial" font-size="14" font-weight="bold">Waste Heat Recovery System</text>
+</svg>
