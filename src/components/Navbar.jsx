@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import enmaxLogo from '../assets/images/logos/enmax-logo.jpg';
+import enmaxLogo from '../assets/images/logos/enmax-logo.svg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,14 +20,11 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center hover:scale-105 transition-all duration-300 group">
-              <div className="relative">
-                <img 
-                  src={enmaxLogo} 
-                  alt="Enmax Engineering India Pvt Ltd"
-                  className="h-12 w-14 object-contain rounded-lg shadow-md group-hover:shadow-lg transition-shadow duration-300"
-                />
-                <div className="absolute inset-0 bg-orange-500/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
+              <img 
+                src={enmaxLogo} 
+                alt="Enmax Engineering India Pvt Ltd"
+                className="h-12 w-auto object-contain transition-all duration-300 group-hover:scale-105"
+              />
               <div className="ml-3 hidden sm:block">
                 <div className="text-xl font-bold text-orange-600 group-hover:text-orange-700 transition-colors duration-300">
                   Enmax Engineering
